@@ -83,7 +83,10 @@ as a CI check. Reading from stdin works with `-` or no argument at all.
 ## Status
 
 Early skeleton: the parser, printer, and precedence comparison cover the
-full SemVer 2.0.0 grammar and are meant to be used. No test suite yet.
+full SemVer 2.0.0 grammar and are meant to be used.
+
+Tests live in `tests/` and run with `pytest`, which is only needed for
+development; the library itself has no dependencies.
 
 ## License
 
